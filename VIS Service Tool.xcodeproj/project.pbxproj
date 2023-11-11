@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		CA040AFA28CF594600D17CB3 /* VIS_Service_ToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA040AF928CF594600D17CB3 /* VIS_Service_ToolApp.swift */; };
-		CA040AFC28CF594600D17CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA040AFB28CF594600D17CB3 /* ContentView.swift */; };
 		CA040AFE28CF594700D17CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA040AFD28CF594700D17CB3 /* Assets.xcassets */; };
 		CA040B0128CF594700D17CB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA040B0028CF594700D17CB3 /* Preview Assets.xcassets */; };
+		CA8C7FD928CF5CA400D84F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7FD828CF5CA400D84F58 /* ContentView.swift */; };
+		CA8C7FDD28CF5CBB00D84F58 /* FaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7FDC28CF5CBB00D84F58 /* FaultsView.swift */; };
+		CA8C7FDE28CF5CBD00D84F58 /* PitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA040B1328CF5A3E00D17CB3 /* PitchView.swift */; };
+		CA8C7FDF28CF5CBF00D84F58 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA040B1428CF5A3E00D17CB3 /* HomeView.swift */; };
+		CA8C7FE028CF5CC100D84F58 /* YawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA040B1528CF5A3E00D17CB3 /* YawView.swift */; };
+		CA8C7FE428CF5CCB00D84F58 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7FE328CF5CCB00D84F58 /* MotionDetector.swift */; };
+		CA8C7FE628CF5CD100D84F58 /* Faults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7FE528CF5CD100D84F58 /* Faults.swift */; };
+		CA8C7FE828CF5CE000D84F58 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7FE728CF5CE000D84F58 /* Tab.swift */; };
+		CA9AC25D28D0A3E100B7E8A8 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9AC25C28D0A3E100B7E8A8 /* CloseButton.swift */; };
+		CA9AC25F28D0A3F100B7E8A8 /* HelpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9AC25E28D0A3F100B7E8A8 /* HelpButton.swift */; };
+		CA9AC26128D0A94D00B7E8A8 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9AC26028D0A94D00B7E8A8 /* ModalView.swift */; };
+		CA9AC26328D0AA2E00B7E8A8 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9AC26228D0AA2E00B7E8A8 /* HelpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA040AF628CF594600D17CB3 /* VIS Service Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIS Service Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA040AF928CF594600D17CB3 /* VIS_Service_ToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIS_Service_ToolApp.swift; sourceTree = "<group>"; };
-		CA040AFB28CF594600D17CB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA040AFD28CF594700D17CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA040B0028CF594700D17CB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA040B1328CF5A3E00D17CB3 /* PitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchView.swift; sourceTree = "<group>"; };
+		CA040B1428CF5A3E00D17CB3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA040B1528CF5A3E00D17CB3 /* YawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YawView.swift; sourceTree = "<group>"; };
+		CA8C7FD828CF5CA400D84F58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA8C7FDC28CF5CBB00D84F58 /* FaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultsView.swift; sourceTree = "<group>"; };
+		CA8C7FE328CF5CCB00D84F58 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		CA8C7FE528CF5CD100D84F58 /* Faults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faults.swift; sourceTree = "<group>"; };
+		CA8C7FE728CF5CE000D84F58 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		CA9AC25C28D0A3E100B7E8A8 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		CA9AC25E28D0A3F100B7E8A8 /* HelpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpButton.swift; sourceTree = "<group>"; };
+		CA9AC26028D0A94D00B7E8A8 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		CA9AC26228D0AA2E00B7E8A8 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				CA040AF928CF594600D17CB3 /* VIS_Service_ToolApp.swift */,
-				CA040AFB28CF594600D17CB3 /* ContentView.swift */,
+				CA9AC25228CF5D8500B7E8A8 /* Navigation */,
+				CA9AC25328CF5D9500B7E8A8 /* Views */,
+				CA9AC25428CF5D9E00B7E8A8 /* Components */,
+				CA9AC25528CF5DB000B7E8A8 /* Models */,
 				CA040AFD28CF594700D17CB3 /* Assets.xcassets */,
 				CA040AFF28CF594700D17CB3 /* Preview Content */,
 			);
@@ -65,6 +90,54 @@
 				CA040B0028CF594700D17CB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA9AC25228CF5D8500B7E8A8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C7FD828CF5CA400D84F58 /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CA9AC25328CF5D9500B7E8A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA040B1428CF5A3E00D17CB3 /* HomeView.swift */,
+				CA8C7FDC28CF5CBB00D84F58 /* FaultsView.swift */,
+				CA040B1528CF5A3E00D17CB3 /* YawView.swift */,
+				CA040B1328CF5A3E00D17CB3 /* PitchView.swift */,
+				CA9AC26028D0A94D00B7E8A8 /* ModalView.swift */,
+				CA9AC26228D0AA2E00B7E8A8 /* HelpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA9AC25428CF5D9E00B7E8A8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C7FE328CF5CCB00D84F58 /* MotionDetector.swift */,
+				CA9AC25B28D0A3CF00B7E8A8 /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CA9AC25528CF5DB000B7E8A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C7FE528CF5CD100D84F58 /* Faults.swift */,
+				CA8C7FE728CF5CE000D84F58 /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA9AC25B28D0A3CF00B7E8A8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CA9AC25C28D0A3E100B7E8A8 /* CloseButton.swift */,
+				CA9AC25E28D0A3F100B7E8A8 /* HelpButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA040AFC28CF594600D17CB3 /* ContentView.swift in Sources */,
+				CA8C7FE428CF5CCB00D84F58 /* MotionDetector.swift in Sources */,
+				CA8C7FDD28CF5CBB00D84F58 /* FaultsView.swift in Sources */,
+				CA9AC26328D0AA2E00B7E8A8 /* HelpView.swift in Sources */,
+				CA8C7FE628CF5CD100D84F58 /* Faults.swift in Sources */,
+				CA8C7FE828CF5CE000D84F58 /* Tab.swift in Sources */,
+				CA9AC25D28D0A3E100B7E8A8 /* CloseButton.swift in Sources */,
+				CA8C7FE028CF5CC100D84F58 /* YawView.swift in Sources */,
+				CA9AC25F28D0A3F100B7E8A8 /* HelpButton.swift in Sources */,
+				CA9AC26128D0A94D00B7E8A8 /* ModalView.swift in Sources */,
+				CA8C7FD928CF5CA400D84F58 /* ContentView.swift in Sources */,
+				CA8C7FDF28CF5CBF00D84F58 /* HomeView.swift in Sources */,
 				CA040AFA28CF594600D17CB3 /* VIS_Service_ToolApp.swift in Sources */,
+				CA8C7FDE28CF5CBD00D84F58 /* PitchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -249,6 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -265,26 +351,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7.0;
 				DEVELOPMENT_ASSET_PATHS = "\"VIS Service Tool/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6VRU96GLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VIS-Service-Tool-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattre1d.VIS-Service-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,26 +382,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7.0;
 				DEVELOPMENT_ASSET_PATHS = "\"VIS Service Tool/Preview Content\"";
 				DEVELOPMENT_TEAM = Q6VRU96GLR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VIS-Service-Tool-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mattre1d.VIS-Service-Tool";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

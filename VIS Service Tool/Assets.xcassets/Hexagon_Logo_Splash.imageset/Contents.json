@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "Hexagon_Logo_CMYK_ColorBug_W_adobe_express.pdf",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 68,
+          "left" : 166,
+          "right" : 166,
+          "top" : 67
+        },
+        "center" : {
+          "height" : 1,
+          "mode" : "tile",
+          "width" : 1
+        },
+        "mode" : "9-part"
+      }
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
